@@ -19,49 +19,40 @@
             border-radius: 0.5rem;
          }
          input {
+            border: none;
+            outline: none;
             border-bottom: 2px solid #888888;
-            padding: 12px 70px;
+            padding: 1dvw 2px;
             font-size: 15px;
             color: #888888;
          }
          .box {
             display: flex;
             flex-direction: column;
+            max-width: 200px;
             gap: 40px;
          }
          button {
             background-color: rgb(30, 135, 240);
-            padding: 9px 147px;
+            padding: 9px 70px;
             margin: 36px 25px;
             border: none;
             color: white;
             cursor: pointer;
-            border-radius: 0.5rem;
-         }
-         #batch {
-            padding: 10px 25px;
          }
       </style>
    </head>
    <body>
       <div class="container">
          <div>
-            <h1>Signup</h1>
+            <h1>Login</h1>
          </div>
          <div class="box">
-            <input type="text" value="Name:" />
-            <select id="batch" name="batch">
-               <option value="">Sigma 2.O</option>
-               <option value="">Sigma.01</option>
-               <option value="">Sigma.03</option>
-               <option value="">Sigma.04</option>
-            </select>
-            <input type="text" value="Age" />
-            <input type="text" value="Email" />
+            <input type="text" value="Username" />
             <input type="text" value="Password" />
          </div>
          <div class="btn">
-            <button>Signup</button>
+            <button>Submit</button>
          </div>
       </div>
    </body>
